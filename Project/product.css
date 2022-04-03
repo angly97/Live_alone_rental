@@ -1,0 +1,286 @@
+/* Generals resets and unimportant stuff */
+
+.filter{
+	position:absolute;
+	top:155px;
+	height: 280px;
+	width: 1355px;
+	margin-left: 180px;
+	margin-right: 180px;
+	font-family: "Open Sans", sans-serif;
+	background-image: url("picture/filter_bg.jpg");
+}
+
+.filter h2{
+	position: relative;
+	top: 20px;
+	left: 10px;
+	font-size: 20px;
+	color: #4C4C4C;
+}
+
+.text{
+	float: left;
+	position: relative;
+	top:10px;
+	height:220px;
+	width: 270px;
+
+}
+.all{
+	float: left;
+	position: relative;
+	top:10px;
+	height:220px;
+	width: 225px;
+
+}
+.updown{
+	float: left;
+	position: relative;
+	top:10px;
+	height:220px;
+	width: 225px;
+
+}
+.swing{
+	float: left;
+	position: relative;
+	top:10px;
+	height:220px;
+	width: 225px;
+
+}
+.stand{
+	float: left;
+	position: relative;
+	top:10px;
+	height:220px;
+	width: 225px;
+
+}
+#OnTheFilter{
+	position:relative;
+	top: 10px;
+	left: 0px;
+	width: 50px;
+	border: solid 0.5px #C2C2C2;
+}
+
+#intermediate{
+	position:absolute;
+	top:450px;
+	height: 10px;
+	width: 1170px;
+	margin-left: 180px;
+}
+#UnderTheFilter{
+	position:relative;
+	top: 0px;
+	left:0px;
+	border: solid 0.8px #C2C2C2;
+}
+
+.filter h1{
+	position: relative;
+	float: left;
+	top: 20px;
+	font-size: 40px;
+	color: #4C4C4C;
+	font-weight:normal;
+}
+.filter h3{
+	position: relative;
+	float: left;
+	top: 40px;
+	font-size: 14px;
+	font-weight:normal;
+	color: #565656;
+}
+.filter h5{
+		float: left;
+		color: #000;
+}
+.blank{
+	position:relative;
+	float: left;
+	width:60px;
+	height: 30px;
+	overflow:hidden;
+}
+.itemboard{
+	position:absolute;
+	top:500px;
+	margin-left: 210px;
+	margin-right: 150px;
+	width: 1250px;
+	background: #fff;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+.src_itemboard{
+	position:absolute;
+	top:240px;
+	margin-left: 210px;
+	margin-right: 150px;
+	width: 1250px;
+	background: #fff;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+#product-front, #product-back{
+	width:335px;
+	height:500px;
+	background:#fff;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+}
+#product-back{
+	display:none;
+	transform: rotateY( 180deg );
+}
+/*전체 박스*/
+.product-card{
+	background: #eaebec;
+	float: left;
+	width:330px;
+	height:420px;
+	margin-bottom: 30px;
+	position:relative;
+	overflow:hidden;
+}
+
+/* 옷 정보 작은 박스*/
+.stats-container{
+	background:#fff;
+	position:absolute;
+	top:350px;
+	left:0;
+	width:350px;
+	height:200px;
+	padding:12px 30px 35px;
+	-webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+
+/* 컨테이너 올라오게 */
+.product-card.animate .stats-container{
+	top:270px;
+}
+
+/*men's running shirt*/
+.stats-container p{
+	font-size:16px;
+	color:#b1b1b3;
+	padding:5px 0 10px 0;
+}
+
+/* 가격 */
+.stats .stats-container .product_price{
+	float:right;
+	color:#F78181;
+	font-size:22px;
+	font-weight:600;
+}
+/* 초록 창 */
+.image_overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#F6CECE;
+	opacity:0;
+}
+.product-card.animate .image_overlay{
+	opacity:0.7;
+	-webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+
+/* color, size 글씨 */
+.product-options span{
+	color:#969699;
+	font-size:15px;
+	display:block;
+	margin-bottom:8px;
+}
+
+/* 원 가격 */
+.product-options strong{
+	font-weight:700;
+	color:#393c45;
+	font-size:19px;
+}
+
+.view_details_AirPurifier{
+	position:absolute;
+	top:112px;
+	left:50%;
+	margin-left:-85px;
+	border:2px solid #fff;
+	color:#fff;
+	font-size:19px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:10px 0;
+	width:172px;
+	opacity:0;
+	-webkit-transition: all 200ms ease-out;
+			 -moz-transition: all 200ms ease-out;
+				 -o-transition: all 200ms ease-out;
+						transition: all 200ms ease-out;
+}
+.view_details{
+	position:absolute;
+	top:112px;
+	left:50%;
+	margin-left:-85px;
+	border:2px solid #fff;
+	color:#fff;
+	font-size:19px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:10px 0;
+	width:172px;
+	opacity:0;
+	-webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.view_details_AirPurifier:hover{
+	background:#fff;
+	color:#F78181;
+	cursor:pointer;
+
+}
+.view_details:hover{
+	background:#fff;
+	color:#F78181;
+	cursor:pointer;
+
+}
+.product-card.animate .view_details{
+	opacity:1;
+	width:152px;
+	font-size:15px;
+	margin-left:-75px;
+	top:115px;
+}
+.product-card.animate .view_details_AirPurifier{
+	opacity:1;
+	width:152px;
+	font-size:15px;
+	margin-left:-75px;
+	top:115px;
+}

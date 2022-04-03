@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.event_hr{
+	position: absolute;
+	top: 850px;
+}
+
+.Eventimg img{
+	width: 17cm;
+	height:8cm;
+	border: 0;
+}
+
+.Eventimg {
+	float : left;
+	position: absolute;
+	top:190px;
+	left:110px;
+}
+
+.Couponimg img{
+	width: 10cm;
+	height:8cm;
+	border: 0;
+}
+
+.Couponimg{
+	float : left;
+	position: absolute;
+	top:890px;
+	left:200px;
+}
